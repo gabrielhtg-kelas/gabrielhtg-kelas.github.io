@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+    <hr />
+
+    <div style="display: flex">
+      <div style="width: 50%">
+        <fieldset>
+          <legend><strong>Login</strong></legend>
+          <br />
+
+          <form action="">
+            <div>
+              <label for="email">Email</label> <br />
+              <input type="email" name="email" id="email" />
+            </div>
+            <br />
+
+            <div>
+              <label for="password">Password</label> <br />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+              /><br /><br />
+            </div>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </fieldset>
+      </div>
+
+      <fieldset style="width: 50%">
+        <legend><strong>Register</strong></legend>
+        <br />
+
+        <form action="">
+          <div>
+            <label for="nama">Nama Lengkap</label> <br />
+            <input type="text" name="nama" id="nama" />
+          </div>
+          <br />
+
+          <div>
+            <label for="email">Email</label> <br />
+            <input type="email" id="email" name="email" required /><br /><br />
+          </div>
+
+          <div>
+            <label for="pekerjaan">Pekerjaan</label> <br />
+            <select name="pekerjaan" id="pekerjaan">
+              <option value="Mahasiswa">Mahasiswa</option>
+              <option value="Asisten Dosen">Asisten Dosen</option>
+              <option value="Dosen">Dosen</option>
+            </select>
+            <br /><br />
+          </div>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
